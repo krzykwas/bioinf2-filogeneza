@@ -43,7 +43,7 @@ public class Main {
             for (int j = 0; j < p.columns; j++) {
                 System.out.print(p.get(i,j) + "\t");
             }
-            if(i!=p.columns-1)
+            if(i!=p.rows-1)
                 System.out.println("");
             else System.out.println("]");
         }
